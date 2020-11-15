@@ -73,3 +73,40 @@ header{
     /* Fim do menu */
     /* Início do Banner */
     
+.banner{
+    max-width: 1400px;
+    width: 100%;
+    height: 85vh;
+    background-image:url(../img/Banner\ Temmo.jpg);
+    animation: banner 28s infinite ;
+
+}
+
+
+
+@keyframes banner {
+    0%{
+        background-image: url(../img/Banner\ Temmo.jpg);
+    }
+    25%{
+        background-image: url(../img/Banner\ Temmo.jpg);
+    }
+    26%{
+        background-image: url(../img/Banner\ Lillia.jpg);
+    }
+    50%{
+        background-image: url(../img/Banner\ Lillia.jpg);
+    }
+    51%{
+        background-image: url(../img/Banner\ Bichinho.jpg);
+    } 
+    75%{
+        background-image: url(../img/Banner\ Bichinho.jpg);
+    } 
+    76%{
+        background-image: url(../img/Banner\ Cogumelo.jpg);
+    } 
+    100%{
+        background-image: url(../img/Banner\ Cogumelo.jpg);
+    }
+}
