@@ -73,3 +73,17 @@ header{
     /* Fim do menu */
     /* Início do Banner */
     
+.banner img{
+
+    height: 95vh;
+    width: 100%;
+    transition: ease 2s;
+
+}
+
+.banner{
+
+    width: 100%;
+    height: 95vh;
+
+}
