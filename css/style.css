@@ -138,8 +138,9 @@ header{
 
     width: 100%;
     height: 700px;
-    background: var(--background2)
-    
+    background: var(--background2);
+    background-size: 300% 300%;
+    animation: animate_background 5s ease infinite alternate;
 
 }
 
