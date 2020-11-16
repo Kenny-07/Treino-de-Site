@@ -199,33 +199,55 @@ header{
 }
 
 .content-rodape img{
-
     width: 8%;
-
+    transition: 0.3s ease-in-out;
 }
 
-.siga-nos img{
+.content-rodape img:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+}
 
+.redes{
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+    padding-right: 25em;
+}
+
+.redes a {
+    border-radius: 5px;
+    padding:10px 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    background-image: var(--background2);
+    transition: 0.3s ease-in-out;
+}
+
+.redes a:hover{
+    color: #6C2598 ;
+    transition: 0.3s ease-in-out;
+    transform: scale(1.1);
+}
+
+.catarse img{
     width: 90px;
-    align-items: center;
-    margin-bottom: 30px;
-    justify-content: space-between;
-    margin: auto;
-
-}
-
-.siga-nos{
-
-    align-items: center;
+    height: 90px;
     
-
 }
 
 .text-rodape{
-
     font-size: 40px;
     color: #FDFDEE;
+    transition: 0.3s;
 
+}
+
+.text-rodape span:hover{
+    color: #37BEDB;
+    transition: 0.3s ease-out;
+    
 }
 
 @keyframes banner {
